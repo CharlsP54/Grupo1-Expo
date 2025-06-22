@@ -1,94 +1,163 @@
-<!DOCTYPE html> 
-<html lang="es">  <!-- Saber en qué idioma leer el texto, es recomendado ponerlo.--> 
+<!DOCTYPE html>
+<html lang="es"> <!-- Saber en qué idioma leer el texto, es recomendado ponerlo. -->
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adopcion</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"> <!-- Permite usar caracteres latinos como la ñ y tildes. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que se vea bien en celulares. -->
+  <title>Adopción</title> <!-- Título que aparece en la pestaña del navegador. -->
 </head>
+
 <body>
-<header class="Titulo"> <!-- Esta es la clase del titulo, tambien el header es el encabezado--> 
-  <h1>Centro de adopcion Perritos y no hijitos</h1> <!-- Nombre del titulo, en este caso el nombre del centro-->
-  <nav> <!-- Este comando sirve para poner las secciones-->
-    <ul> <!-- Lista desordenada para el menu-->
-      <li><a href="#adopcion">Adopción</a></li> <!-- Este es para la etiqueta de Adopción-->
-      <li><a href="#quienes">Quiénes somos</a></li> <!-- Este es para la etiqueta de quienes somos-->
-      <li><a href="#contacto">Contacto</a></li> <!-- Este es para la etiqueta de contacto-->
-      <li><a href="#mascotas">Mascotas</a></li> <!-- Este es para la etiqueta de mascotas-->
-    </ul>
-  </nav>
-</header>
 
-<main class="Contenido"> <!-- Esta es la clase del Contenido principal -->
+  <header class="Titulo"> <!-- Esta es la clase del título, también el header es el encabezado general de la web. -->
+    <h1>Centro de adopción Perritos y no hijitos</h1> <!-- Nombre del centro de adopción. -->
 
-  <section id="adopcion" class="Articulo"> <!-- Sección de adopción -->
-    <h2>¿Quieres adoptar?</h2> <!-- Subtítulo -->
-    <p>Adoptar es un acto de amor que cambia vidas. En Perritos y no hijitos, 
-      te guiamos en cada paso del proceso para que encuentres a tu compañero ideal.</p>
-    
-    <h3>¿Cómo adoptar?</h3> <!-- Sub-subtítulo -->
-    <ul>
-      <li>Paso 1: Revisa a los animales disponibles en nuestro centro.</li>
-      <li>Paso 2: Visítanos y conoce personalmente a tu posible nuevo amigo.</li>
-      <li>Paso 3: Completa un formulario de adopción responsable en nuestro local.</li>
-      <li>Paso 4: Recibe asesoría y apoyo post-adopción.</li>
-    </ul>
-    
-    <h3>Requisitos básicos</h3>
-    <ul> <!-- Lista desordenada para requisitos -->
-      <li>Ser mayor de edad.</li>
-      <li>Contar con espacio y tiempo adecuados.</li>
-      <li>Compromiso de cuidado y atención médica.</li>
-    </ul>
-  </section>
+    <nav> <!-- Menú de navegación en línea usando solo HTML -->
+      <p>
+        <a href="#adopcion">Adopción</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#quienes">Quiénes somos</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#mascotas">Mascotas</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#contacto">Contacto</a>
+      </p>
+    </nav>
+  </header>
 
-  <section id="quienes" class="Articulo"> <!-- Sección de quienes somos -->
-    <h2>Nuestra historia</h2>
-    <p>Perritos y no hijitos nació en 2025 como una iniciativa de voluntarios amantes de los perritos. 
-      Hoy seguimos trabajando con el mismo corazón, rescatando y dando en adopción perros que lo 
-      necesitan.</p>
-    
-    <h3>Nuestra misión</h3>
-    <p>Brindar una segunda oportunidad a los animales abandonados, promoviendo la adopción responsable 
-      y el respeto por la vida.</p>
-  </section>
-  <section id="mascotas" class="Articulo"> <!-- Sección de mascotas -->
-    <h2>Perritos disponibles</h2> <!-- Aqui se ven los perritos disponibles en adopcion -->
+  <main class="Contenido"> <!-- Esta es la clase del contenido principal de la página. -->
 
-    <h3>Luna</h3>
-    <p>Edad: 1 año</p>
-    <p>Tamaño: Pequeña</p>
-    <p>Color: Blanca y negra</p>
-    <p>Raza: Dalmata</p>
-    <p>Descripción: Tranquila y cariñosa.</p>
+    <section id="adopcion" class="Articulo"> <!-- Sección de adopción -->
+      <h2 style="margin-left: 575px;">¿Un nuevo miembro en la familia?</h2>
 
-    <h3>Felipe</h3>
-    <p>Edad: 2 años</p>
-    <p>Tamaño: Mediano</p>
-    <p>Color: Blanco y negro</p>
-    <p>Raza: Husky siberiano</p>
-    <p>Descripción: Alegre y juguetón.</p>
+      <!-- Tabla con imagen a la izquierda y texto a la derecha -->
+      <table>
+        <tr>
+          <td width="40%" align="left">
+            <!-- Imagen a la izquierda -->
+            <img src="perritos.png" alt="Perritos" width="500">
+            <!-- Cambia "perritos.png" por el nombre de tu imagen -->
+          </td>
+          <td width="53%">
+            <p>Adoptar es un acto de amor que transforma dos vidas: la del animal que rescataste y
+              la tuya. En Perritos y no hijitos, te guiamos en cada paso del proceso para que encuentres a tu compañero ideal
+              que llenará tu hogar de amor y alegría.</p>
 
-    <h3>Destructor de galaxias</h3>
-    <p>Edad: 4 años</p>
-    <p>Tamaño: Pequeño</p>
-    <p>Color: Café</p>
-    <p>Raza: Chihuahua</p>
-    <p>Descripción: Travieso y juguetón.</p>
+            <h3>¿Cómo adoptar?</h3>
+            <ul>
+              <li><strong>1.- Conoce a los animales disponibles</strong> - Explora y elige a la mascota que mejor conecte contigo.</li>
+              <li><strong>2.- Ven a conocernos</strong> - Visítanos para interactuar en persona y descubrir tu futuro compañero.</li>
+              <li><strong>3.- Completa tu solicitud responsable</strong> - Llena nuestro formulario para empezar el proceso de adopción.</li>
+              <li><strong>4.- Recibe guía personalizada post-adopción</strong> - Te acompañamos con orientación y apoyo para que ambos se adapten con éxito.</li>
+            </ul>
 
-    <h3>Princesa</h3>
-    <p>Edad: 2 años</p>
-    <p>Tamaño: Grande</p>
-    <p>Color: Café con blanco</p>
-    <p>Raza: Pitbull</p>
-    <p>Descripción: Tranquila y obediente.</p>
-  </section>
-</main>  <!-- CIERRA EL CONTENIDO PRINCIPAL -->
-  <footer id="contacto" class="Articulo">
-    <h2>Contacto</h2>
-    <p>📧 Email: perritosynohijitos@gmail.com</p>
-    <p>📞 Teléfono: +593 123 456 7890</p>
-    <p>📍 Dirección: No se wey, escoge una direccion xd</p>
-  </footer> <!-- footer sirve para poner info en el pie de pagina -->
+            <h3>Requisitos básicos</h3>
+            <ul>
+              <li>Ser mayor de edad y estar comprometido con el bienestar del animal.</li>
+              <li>Contar con espacio adecuado, tiempo disponible y un entorno seguro.</li>
+              <li>Asumir la responsabilidad del cuidado médico, alimentación y alojamiento.</li>
+              <li>Estar dispuesto a brindar cariño, paciencia y atención continua.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="quienes" class="Articulo"> <!-- Sección de quienes somos -->
+      <h2 style="margin-left: 300px;">Nuestra Historia</h2> <!-- Título centrado con margen -->
+
+      <!-- Tabla con texto a la izquierda y la imagen a la derecha -->
+      <table>
+        <tr>
+          <!-- Texto a la izquierda -->
+          <td width="60%" valign="top">
+            <p>Perritos y no hijitos nació en 2025 como una iniciativa impulsada por voluntarios comprometidos
+              con el bienestar animal. Desde entonces, trabajamos con dedicación y amor, rescatando perritos, 
+              gatitos y otros compañeros peludos que han sido abandonados. Nuestro objetivo es brindarles una
+              segunda oportunidad y ayudarles a encontrar hogares responsables donde reciban el cariño, la protección y el respeto que merecen.</p>
+
+            <h3 style="margin-left: 300px;">Nuestra misión</h3> <!-- Sub-subtítulo -->
+            <p>Ofrecer una nueva oportunidad a cada vida rescatada, promoviendo la adopción
+               responsable, el cuidado amoroso y el respeto incondicional por todos los animales. 
+               Buscamos construir un mundo donde cada mascota tenga un hogar seguro, digno y lleno
+               de afecto.</p>
+          </td>
+
+          <!-- Imagen a la derecha -->
+          <td width="100%" align="right">
+            <!-- Imagen donde es NUESTRA HISTORIA formato para ponerlo con ancho y alto de la imagen y espacios -->
+            <img src="si.png" alt="Collage animales y personas" width="500" height="250"
+            style=" margin-left: 50px; margin-top: -18px;">
+          </td>
+        </tr>
+      </table>
+    </section>
+
+<section id="mascotas" class="Articulo"> <!-- Sección de mascotas -->
+  <h2 style="text-align: center;">Mascotas disponibles</h2> <!-- Título -->
+
+  <table style="width: 100%; padding: 0 40px; box-sizing: border-box;">
+    <tr>
+      <!-- Mascota 1 -->
+      <td align="center" width="25%">
+        <img src="dalma.jpg" alt="Luna" width="180" height="180"><br>
+        <strong>Luna</strong><br>
+        Edad: 6 meses<br>
+        Tamaño: Pequeña<br>
+        Color: Blanca y negra<br>
+        Raza: Dálmata<br>
+        Descripción: Tranquila y cariñosa.
+      </td>
+
+      <!-- Mascota 2 -->
+      <td align="center" width="25%">
+        <img src="huskie.jpg" alt="Felipe" width="180" height="180"><br>
+        <strong>Felipe</strong><br>
+        Edad: 2 años<br>
+        Tamaño: Mediano<br>
+        Color: Blanco y negro<br>
+        Raza: Husky siberiano<br>
+        Descripción: Alegre y juguetón.
+      </td>
+
+      <!-- Mascota 3 -->
+      <td align="center" width="25%">
+        <img src="chihua.jpg" alt="Destructor de galaxias" width="180" height="180"><br>
+        <strong>Destructor de galaxias</strong><br>
+        Edad: 4 años<br>
+        Tamaño: Pequeño<br>
+        Color: Café<br>
+        Raza: Chihuahua<br>
+        Descripción: Travieso y juguetón.
+      </td>
+
+      <!-- Mascota 4 -->
+      <td align="center" width="25%">
+        <img src="pilfru.jpg" alt="Princesa" width="180" height="180"><br>
+        <strong>Princesa</strong><br>
+        Edad: 2 años<br>
+        Tamaño: Grande<br>
+        Color: Café con blanco<br>
+        Raza: Pitbull<br>
+        Descripción: Tranquila y obediente.
+      </td>
+    </tr>
+  </table>
+</section>
+  </main> <!-- Cierra el contenido principal -->
+
+<footer id="contacto" class="Articulo" style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid black;">
+    <!-- Pie de página centrado con espacio interno, separación hacia arriba y una línea superior para dividirlo visualmente -->
+  <h2>Contacto</h2>
+  <p>Si deseas más información o tienes alguna consulta, no dudes en comunicarte con nosotros.</p>
+  
+  <p><strong>Correo:</strong> perritosynohijitos@gmail.com</p>
+  <p><strong>Teléfono:</strong> +593 123 456 7890</p>
+  <p><strong>Dirección:</strong> Montecristi, Manabí, Ecuador</p>
+  
+  <p style="margin-top: 20px;">Gracias por apoyar la adopción responsable.</p>
+</footer>
+
+
 </body>
 </html>
