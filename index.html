@@ -11,14 +11,14 @@
 <body>
 
   <header class="Titulo"> <!-- Esta es la clase del título, también el header es el encabezado general de la web. -->
-    <!--El logo a la izquierda -->
+    <!--El logo -->
     <img src="logo.png" alt="Logo" width="200">
     <h1>Centro de adopción Vínculo Animal</h1>
     <p style="font-style: italic; margin-top: -10px;">"Perritos y gatitos mejor que hijitos"</p>
     <nav> <!-- Menú de navegación en línea usando solo HTML -->
       <p>
         <a href="#adopcion">Adopción</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Comando para crear espacio entre textos -->
         <a href="#quienes">Quiénes somos</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="#consejos">Consejos</a>
@@ -108,14 +108,14 @@
         </tr>
       </table>
     </section>
-    <section id="consejos" class="Articulo">
+    <section id="consejos" class="Articulo"> <!-- Sección de educación y consejos -->
       <!-- Título centrado -->
       <h2 style="text-align: center;">Educación y Consejos</h2>
 
-      <!-- Contenido en dos columnas: texto e imagen -->
+      <!-- Contenido en dos columnas: texto e imagen, uso de tablas -->
       <table style="width: 100%;">
         <tr>
-          <!-- Texto a la izquierda -->
+          <!-- Texto a la izquierda (uso de tablas) -->
           <td width="60%" valign="top">
             <p>Una adopción responsable comienza con el conocimiento. Aquí te dejamos algunos consejos:</p>
             <ul>
@@ -128,8 +128,9 @@
           </td>
 
           <!-- Imagen a la derecha -->
-          <td width="40%" align="right">
-            <img src="consejos.jpg" alt="Educación y Consejos" width="400" height="250"
+          <td width ="40%"align="right">
+            <img src="consejos.jpg" alt="Educación y Consejos" width="400" height="250" 
+
                 style="margin-left: 20px; border-radius: 10px;">
           </td>
         </tr>
@@ -141,7 +142,7 @@
       <table style="width: 100%; padding: 0 40px; box-sizing: border-box;">
         <tr>
           <!-- Mascota 1 -->
-          <td align="center" width="25%">
+          <td align="center" width="25%"> <!-- Alineación centrada para las tarjetas de mascotas -->
             <img src="mizi.jpg" alt="Quemado" width="180" height="180"><br>
             <strong>Quemado</strong><br>
             Edad: 3 meses<br>
@@ -163,7 +164,7 @@
           </td>
 
           <!-- Mascota 3 -->
-          <td align="center" width="25%">
+          <td align="center" width="25%"> 
             <img src="chihua.jpg" alt="Destructor de galaxias" width="180" height="180"><br>
             <strong>Destructor de galaxias</strong><br>
             Edad: 4 años<br>
@@ -188,13 +189,14 @@
     </section>
     <section id="preguntas" class="Articulo">
       <!-- Título centrado -->
-      <h2 style="text-align: center;">Preguntas Frecuentes</h2>
+      <h2 style="text-align: center;">Preguntas Frecuentes</h2>   <!-- sección de preguntas frecuentes -->
 
       <!-- Contenido en dos columnas: texto e imagen -->
       <table style="width: 100%;">
         <tr>
           <!-- Texto a la izquierda -->
           <td width="60%" valign="top">
+            <!-- texto de preguntas frecuentes -->
             <h3>¿Las mascotas ya están vacunadas?</h3>
             <p>Sí. Todas nuestras mascotas están vacunadas, desparasitadas y esterilizadas antes de ser adoptadas.</p>
             <h3>¿Puedo adoptar si vivo en un departamento?</h3>
@@ -213,7 +215,8 @@
         </tr>
       </table>
     </section>
-    <section id="formulario" class="Articulo">
+    <!-- Sección del formulario de adopción ahi que mejorar -->
+    <section id="formulario" class="Articulo"> 
       <h2>Formulario de Adopción</h2>
       <p>Si estás interesado, puedes llenar el siguiente formulario para iniciar el proceso de adopción:</p>
       <form>
@@ -229,15 +232,17 @@
         <label for="mensaje">Cuéntanos sobre tu hogar:</label><br>
         <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
 
-        <input type="submit" value="Enviar solicitud">
+        <input type="submit" value="Enviar solicitud"> <!-- no guarda nada en ningun momento no muestra ningun mensaje -->
       </form>
     </section>
   </main> <!-- Cierra el contenido principal -->
 
+<!-- pie de pagina/ parte final-->
 <footer id="contacto" class="Articulo" style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid black;">
     <!-- Pie de página centrado con espacio interno, separación hacia arriba y una línea superior para dividirlo visualmente -->
   <h2>Contacto</h2>
   <p>Si deseas más información o tienes alguna consulta, no dudes en comunicarte con nosotros.</p>
+  
   
   <p><strong>Correo:</strong> vinculoanimal@gmail.com</p>
   <p><strong>Teléfono:</strong> +593 123 456 7890</p>
@@ -248,3 +253,4 @@
 
 </body>
 </html>
+<!-- Fin del contenido principal y pie de página -->

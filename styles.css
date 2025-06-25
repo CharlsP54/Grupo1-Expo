@@ -1,6 +1,6 @@
 /* Variables de color */
     :root {
-      --primary: #8B5E3C; /* Marrón cálido, café medio */
+      --primary: #7e4a23; /* Marrón cálido, café medio */
       --secondary: #C19A6B; /* Beige / arena */
       --accent: #D2691E; /* Chocolate o naranja oscuro */
       --light: #F5F5DC; /* Beige claro */
@@ -94,7 +94,7 @@
     
     li {
       margin-bottom: 0.5rem;
-    }/* Imágenes */
+    }/* Imágenes tamaños y formatos ya establecidos*/  
     img {
       max-width: 100%;
       height: auto;
