@@ -10,29 +10,31 @@
 
 <body>
 
-  <header class="Titulo"> <!-- Esta es la clase del título, también el header es el encabezado general de la web. -->
-    <!--El logo -->
-    <img src="logo.png" alt="Logo" width="200">
-    <h1>Centro de adopción Vínculo Animal</h1>
-    <p style="font-style: italic; margin-top: -10px;">"Perritos y gatitos mejor que hijitos"</p>
-    <nav> <!-- Menú de navegación en línea usando solo HTML -->
-      <p>
-        <a href="#adopcion">Adopción</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Comando para crear espacio entre textos -->
-        <a href="#quienes">Quiénes somos</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#consejos">Consejos</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#mascotas">Mascotas</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#preguntas">Preguntas frecuentes</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#formulario">Formulario</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#contacto">Contacto</a>
-      </p>
+  <header class="header-container"> <!-- Encabezado general con estilo flexbox -->
+    <!-- Logo a la izquierda -->
+    <div class="logo">
+      
+      <img src="logo.png" alt="Logo" width="200">
+    </div>
+
+    <!-- Contenido central: título y frase -->
+    <div class="titulo">
+      <h1>Centro de adopción Vínculo Animal</h1>
+      <p style="font-style: italic; margin-top: -10px;">"Perritos y gatitos mejor que hijitos"</p>
+    </div>
+
+    <!-- Navegación a la derecha -->
+    <nav class="navegacion">
+      <a href="#adopcion">Adopción</a>
+      <a href="#quienes">Quiénes somos</a>
+      <a href="#consejos">Consejos</a>
+      <a href="#mascotas">Mascotas</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <a href="#formulario">Formulario</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
+
 
   <main class="Contenido"> <!-- Esta es la clase del contenido principal de la página. -->
 
