@@ -156,17 +156,17 @@ img:hover {
 
 .navegacion {  /* Contenedor para los enlaces de navegación */
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 1.2rem;
+  align-items: center;
+  gap: 1rem;
   padding: 0.5rem 1rem;
-  transform: translateX(-5px); /* Desplazamiento a la izquierda de forma horizontal*/
-=======
-  gap: 1.5rem;
-  transform: translateX(-40px); /* Desplazamiento a la izquierda de forma horizontal*/
->>>>>>> f3a660b5fa5dfed270fe72424f7638fa017f04a8
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  flex-shrink: 1;
 }
+
 
 .navegacion a {
   color: var(--dark);
