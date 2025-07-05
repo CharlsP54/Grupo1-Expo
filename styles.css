@@ -257,3 +257,49 @@ form input[type="submit"] { /* Botón de envío del formulario */
 form input[type="submit"]:hover { /* Efecto al pasar el cursor sobre el botón de envío */
   background-color: #63381c;
 }
+
+/* Para asegurar que el texto se adapta correctamente */
+.contenido {
+  max-width: 100%;
+  padding: 1rem;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+/* Asegura márgenes y paddings suaves en móviles */
+@media (max-width: 768px) {
+  .contenido {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Estilos específicos para la sección #quienes */
+#quienes {
+  padding: 2rem 1rem;
+}
+
+#quienes h2 {
+  text-align: center;
+}
+
+#quienes .historia-contenedor {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  align-items: center;
+}
+
+#quienes .historia-texto {
+  text-align: justify;
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+#quienes .historia-imagen img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
