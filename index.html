@@ -11,16 +11,16 @@
 <body>
 
   <header class="header-container"> <!-- Encabezado general con estilo flexbox -->
-    <!-- Logo a la izquierda -->
+    <!-- Logo a la izquierda --> <!-- se uso flexbox para adapartar el logo con las demas cosas de manera facil en su contenedor-->
     <div class="logo">
       
-      <img src="logo.png" alt="Logo" width="200">
+      <img src="logo.png" alt="Logo" width="200" height="500">
     </div>
 
     <!-- Contenido central: título y frase -->
     <div class="titulo">
-      <h1>Centro de adopción Vínculo Animal</h1>
-      <p style="font-style: italic; margin-top: -10px;">"Perritos y gatitos mejor que hijitos"</p>
+      <h4>Centro de adopción Vínculo Animal</h4>
+      <p>"Perritos y gatitos mejor que hijitos"</p>
     </div>
 
     <!-- Navegación a la derecha -->
@@ -39,7 +39,7 @@
   <main class="Contenido"> <!-- Esta es la clase del contenido principal de la página. -->
 
     <section id="adopcion" class="Articulo"> <!-- Sección de adopción -->
-      <h2 style="margin-left: 575px;">¿Un nuevo miembro en la familia?</h2>
+      <h2>¿Un nuevo miembro en la familia?</h2>
 
       <!-- Tabla con imagen a la izquierda y texto a la derecha -->
       <table>
@@ -105,7 +105,7 @@
           <td width="100%" align="right">
             <!-- Imagen donde es NUESTRA HISTORIA formato para ponerlo con ancho y alto de la imagen y espacios -->
             <img src="si 2.0.png" alt="Collage animales y personas" width="325" height="250"
-            style=" margin-left: 0x; margin-top: -18px;">
+            style=" margin-left: 0x; margin-top: 80px;">
           </td>
         </tr>
       </table>
@@ -138,61 +138,60 @@
         </tr>
       </table>
     </section>
-    <section id="mascotas" class="Articulo"> <!-- Sección de mascotas -->
-      <h2 style="text-align: center;">Mascotas disponibles</h2> <!-- Título -->
+    
+<section id="mascotas" class="Articulo">
+  <h2 style="text-align: center;">Mascotas disponibles</h2>
 
-      <table style="width: 100%; padding: 0 40px; box-sizing: border-box;">
-        <tr>
-          <!-- Mascota 1 -->
-          <td align="center" width="25%"> <!-- Alineación centrada para las tarjetas de mascotas -->
-            <img src="mizi.jpg" alt="Quemado" width="180" height="180"><br>
-            <strong>Quemado</strong><br>
-            Edad: 3 meses<br>
-            Tamaño: Pequeña<br>
-            Color: Blanca y negra<br>
-            Raza: Himalayo<br>
-            Descripción: Tranquila y cariñosa.
-          </td>
+  <div class="mascotas-grid">
 
-          <!-- Mascota 2 -->
-          <td align="center" width="25%">
-            <img src="huskie.jpg" alt="Felipe" width="180" height="180"><br>
-            <strong>Felipe</strong><br>
-            Edad: 2 años<br>
-            Tamaño: Grande<br>
-            Color: Blanco y negro<br>
-            Raza: Husky siberiano<br>
-            Descripción: Alegre y juguetón.
-          </td>
+    <div class="tarjeta-mascota">
+      <img src="mizi.jpg" alt="Quemado">
+      <strong>Quemado</strong>
+      <p>Edad: 3 meses<br>
+        Tamaño: Pequeña<br>
+        Color: Blanca y negra<br>
+        Raza: Himalayo<br>
+        Descripción: Tranquila y cariñosa.</p>
+    </div>
 
-          <!-- Mascota 3 -->
-          <td align="center" width="25%"> 
-            <img src="chihua.jpg" alt="Destructor de galaxias" width="180" height="180"><br>
-            <strong>Destructor de galaxias</strong><br>
-            Edad: 4 años<br>
-            Tamaño: Pequeño<br>
-            Color: Café<br>
-            Raza: Chihuahua<br>
-            Descripción: Travieso y juguetón.
-          </td>
+    <div class="tarjeta-mascota">
+      <img src="huskie.jpg" alt="Felipe">
+      <strong>Felipe</strong>
+      <p>Edad: 2 años<br>
+        Tamaño: Grande<br>
+        Color: Blanco y negro<br>
+        Raza: Husky siberiano<br>
+        Descripción: Alegre y juguetón.</p>
+    </div>
 
-          <!-- Mascota 4 -->
-          <td align="center" width="25%">
-            <img src="pilfru.jpg" alt="Princesa" width="180" height="180"><br>
-            <strong>Princesa</strong><br>
-            Edad: 2 años<br>
-            Tamaño: Mediano<br>
-            Color: Café claro con blanco<br>
-            Raza: Pitbull<br>
-            Descripción: Tranquila y obediente.
-          </td>
-        </tr>
-      </table>
-    </section>
-    <section id="preguntas" class="Articulo">
+    <div class="tarjeta-mascota">
+      <img src="chihua.jpg" alt="Destructor de galaxias">
+      <strong>Destructor de galaxias</strong>
+      <p>Edad: 4 años<br>
+        Tamaño: Pequeño<br>
+        Color: Café<br>
+        Raza: Chihuahua<br>
+        Descripción: Travieso y juguetón.</p>
+    </div>
+
+    <div class="tarjeta-mascota">
+      <img src="esteci.jpg" alt="Princesa">
+      <strong>Princesa</strong>
+      <p>Edad: 2 años<br>
+        Tamaño: Mediano<br>
+        Color: Café claro con blanco<br>
+        Raza: Pitbull<br>
+        Descripción: Tranquila y obediente.</p>
+    </div>
+
+  </div>
+</section>
+
+    
+    <section id="preguntas" class="Articulo">  <!-- sección de preguntas frecuentes -->
+
       <!-- Título centrado -->
-      <h2 style="text-align: center;">Preguntas Frecuentes</h2>   <!-- sección de preguntas frecuentes -->
-
+      <h2 style="text-align: center;">Preguntas Frecuentes</h2>  
       <!-- Contenido en dos columnas: texto e imagen -->
       <table style="width: 100%;">
         <tr>
@@ -217,25 +216,27 @@
         </tr>
       </table>
     </section>
+
     <!-- Sección del formulario de adopción ahi que mejorar -->
     <section id="formulario" class="Articulo"> 
       <h2>Formulario de Adopción</h2>
       <p>Si estás interesado, puedes llenar el siguiente formulario para iniciar el proceso de adopción:</p>
       <form>
-        <label for="nombre">Nombre completo:</label><br>
-        <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="nombre">Nombre completo:</label> <!-- etiqueta para el campo de nombre -->
+    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez"> <!-- campo de texto para el nombre -->
 
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Ej: correo@ejemplo.com"> <!-- campo de texto para el correo electrónico -->
 
-        <label for="mascota">Mascota que te interesa:</label><br>
-        <input type="text" id="mascota" name="mascota"><br><br>
+    <label for="mascota">Mascota que te interesa:</label> <!-- etiqueta para el campo de mascota -->
+    <input type="text" id="mascota" name="mascota" placeholder="Nombre de la mascota"> <!-- campo de texto para la mascota -->
 
-        <label for="mensaje">Cuéntanos sobre tu hogar:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
+    <label for="mensaje">Cuéntanos sobre tu hogar:</label> <!-- etiqueta para el campo de mensaje -->
+    <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Dónde vivirá? ¿Tienes más mascotas?"></textarea>
+    <!-- campo de texto para el mensaje, con varias líneas -->
+    <input type="submit" value="Enviar solicitud">
+  </form>
 
-        <input type="submit" value="Enviar solicitud"> <!-- no guarda nada en ningun momento no muestra ningun mensaje -->
-      </form>
     </section>
   </main> <!-- Cierra el contenido principal -->
 
@@ -246,11 +247,10 @@
   <p>Si deseas más información o tienes alguna consulta, no dudes en comunicarte con nosotros.</p>
   
   
-  <p><strong>Correo:</strong> vinculoanimal@gmail.com</p>
-  <p><strong>Teléfono:</strong> +593 123 456 7890</p>
-  <p><strong>Dirección:</strong> Montecristi, Manabí, Ecuador</p>
-  
-  <p style="margin-top: 20px;">Gracias por apoyar la adopción responsable.</p>
+  <p><strong>Correo:</strong> vinculoanimal@gmail.com</p> <!-- Correo electrónico de contacto -->
+  <p><strong>Teléfono:</strong> +593 123 456 7890</p> <!-- Número de teléfono de contacto -->
+  <p><strong>Dirección:</strong> Montecristi, Manabí, Ecuador</p> <!-- Dirección física de la organización -->
+  <p style="margin-top: 20px;">Gracias por apoyar la adopción responsable.</p>  
 </footer>
 
 </body>
